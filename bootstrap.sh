@@ -25,3 +25,6 @@ source 'symlink-dotfiles.sh'
 
 # Update OS X
 sudo softwareupdate -i -a
+
+# Set Google Chrome as the default browers. You'll be prompted to select the browser you'd prefer.
+open -a "Google Chrome" --args --make-default-browser
