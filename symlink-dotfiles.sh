@@ -2,7 +2,7 @@
 # Most of this is from https://github.com/paulmillr/dotfiles/blob/master/symlink-dotfiles.sh
 
 dev="$HOME/src/"
-dotfiles="$dev/arachnys/osx-bootstrap/dotfiles"
+dotfiles="$dev/hazzadous/osx-bootstrap/dotfiles"
 
 if [[ -d "$dotfiles" ]]; then
   echo "Symlinking dotfiles from $dotfiles"
