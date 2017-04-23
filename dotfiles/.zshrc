@@ -93,9 +93,4 @@ bindkey '[H' kill-word
 # Delete line with cmd-backspace
 bindkey '[I' kill-whole-line
 
-# added by travis gem
-[ -f /Users/jonas/.travis/travis.sh ] && source /Users/jonas/.travis/travis.sh
-source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
-
 export PATH="/usr/local/sbin:$PATH"
