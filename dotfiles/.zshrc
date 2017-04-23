@@ -72,8 +72,6 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-eval "$(docker-machine env local 2>/dev/null)"
-
 #bindkey "\e[1~" beginning-of-line
 #bindkey "\e[4~" end-of-line
 

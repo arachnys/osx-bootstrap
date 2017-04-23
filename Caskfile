@@ -12,7 +12,7 @@ iterm2
 vagrant
 virtualbox
 # Containers
-docker-toolbox
+docker
 
 ## Coding
 visual-studio-code
