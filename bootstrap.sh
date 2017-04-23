@@ -11,7 +11,7 @@ brew update
 curl -L http://install.ohmyz.sh | sh
 
 # install brew taps, needs to be fixed properly later
-while read in; do brew tap "$in"; done < Taps
+while read in; do brew tap "$in"; done < $(cat Taps|grep -v "#")
 
 # Install brews
 brew install $(cat Brewfile|grep -v "#")
