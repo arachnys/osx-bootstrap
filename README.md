@@ -1,7 +1,7 @@
 osx-bootstrap
 =============
 
-*Updated to work on OS X Yosemite 10.10.1*
+*Updated to work on OS X Sierra 10.12.4*
 
 #### Bootstrap for new OS X installs
 
