@@ -1,11 +1,12 @@
 ## Productive stuff
 ack
 httpie
-wget
-packer
-watch
 jq
+packer
 shfmt
+transmit
+watch
+wget
 
 ## Programming stuff
 git
