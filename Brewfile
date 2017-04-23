@@ -5,6 +5,7 @@ wget
 packer
 watch
 jq
+shfmt
 
 ## Programming stuff
 git
