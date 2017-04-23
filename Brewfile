@@ -13,7 +13,10 @@ git
 git-flow
 
 ## Shell stuff
+tmux
 zsh
 zsh-completions
 zsh-syntax-highlighting
-tmux
+
+## Cloud resources
+awscli
