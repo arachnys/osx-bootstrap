@@ -7,6 +7,7 @@ shfmt
 transmit
 watch
 wget
+python
 
 ## Programming stuff
 git

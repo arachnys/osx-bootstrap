@@ -19,6 +19,9 @@ brew install $(cat Brewfile|grep -v "#")
 # Install casks
 brew cask install $(cat Caskfile|grep -v "#")
 
+# Install pip packages
+sudo pip install -r requirements.txt
+
 # Set standard settings
 source 'settings.sh'
 source 'symlink-dotfiles.sh'
