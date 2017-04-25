@@ -8,6 +8,7 @@ transmit
 watch
 wget
 python
+nvm
 
 ## Programming stuff
 git
