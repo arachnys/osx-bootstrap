@@ -4,7 +4,6 @@ httpie
 jq
 packer
 shfmt
-transmit
 watch
 wget
 python
