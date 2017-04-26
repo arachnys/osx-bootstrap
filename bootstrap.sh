@@ -1,3 +1,5 @@
+set -ex
+
 # Prompt for password early on
 sudo -v
 
@@ -11,10 +13,13 @@ brew update
 curl -L http://install.ohmyz.sh | sh
 
 # install brew taps, needs to be fixed properly later
-while read in; do brew tap "$in"; done < $(cat Taps|grep -v "#")
+for f in $(cat Taps|grep -v "#");
+do 
+  brew tap $f
+done
 
 # Install brews
-brew install $(cat Brewfile|grep -v "#")
+brew install $(cat Brewfile|grep -v "#") | true
 
 # Install casks
 brew cask install $(cat Caskfile|grep -v "#")
